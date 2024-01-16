@@ -15,7 +15,7 @@ from langchain.vectorstores import FAISS
 from torch import embedding
 import dill
 
-GOOGLE_API_KEY='AIzaSyAmMtufl_TPyWdLbuCFD5Lh8IEpJWrEXYo'
+GOOGLE_API_KEY='Your api key'
 
 google_api_key = os.getenv("GOOGLE_API_KEY", GOOGLE_API_KEY)
 if google_api_key is None:
